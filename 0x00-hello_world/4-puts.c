@@ -1,6 +1,7 @@
 #include<stdio.h>
-/*
+/**
  *main - executed first and displays output using puts()
+ *
  *Return: 0
  */
 
