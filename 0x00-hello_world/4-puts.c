@@ -1,7 +1,7 @@
 #include<stdio.h>
 /*
- *	main - executed first and displays output using puts()
- *	Return: 0
+ *main - executed first and displays output using puts()
+ *Return: 0
  */
 
 int main(void)
