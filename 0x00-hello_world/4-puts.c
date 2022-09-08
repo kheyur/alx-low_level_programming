@@ -1,10 +1,14 @@
 #include<stdio.h>
 /*
- * print specific output using puts function
+ *	main - executed first and is the starting point
+ *
+ *	Should return 0
  */
 
-int main(void){
+int main(void)
+{
 	
-	puts("Programming is like building a multilingual puzzle");
-	return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+
 }
