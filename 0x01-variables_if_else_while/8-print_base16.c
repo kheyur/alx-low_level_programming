@@ -11,11 +11,11 @@ int main(void)
 
 	for (a = 0x0; a <= 9; a++)
 	{
-		putchar(%x a );
+		putchar(a % x + '0');
 	}
 	for (a = 0x64; a <= 'f'; a++)
 	{
-		putchar(%x a);
+		putchar(a % x + '0');
 	}
 	putchar('\n');
 	return (0);
