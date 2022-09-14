@@ -10,10 +10,10 @@ int print_last_digit(int i)
 	int c;
 
 	c = i % 10;
-	while (c >= 10)
+	if (c < 0)
 	{
-		c = c/10;
+		c = -1 * c;
 	}
-	printf(c);
+	(c);
 	return (c);
 }
