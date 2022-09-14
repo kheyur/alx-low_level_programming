@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - prints out _putchar
+ * _putchar - prints out _putchar
  *
  * Return: 0
  */
-int main(void)
+int _putchar(void)
 {
-	printf("_putchar\n");
+	putchar('_putchar');
+	putchar('\n');
 	return (0);
 }
