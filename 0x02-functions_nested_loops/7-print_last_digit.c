@@ -10,5 +10,9 @@ int print_last_digit(int i)
 	int c;
 
 	c = i % 10;
+	while (c >= 10)
+	{
+		c = c/10;
+	}
 	return (c);
 }
