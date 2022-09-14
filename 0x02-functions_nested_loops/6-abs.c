@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * _abs - computes the absolute value of an int
- * @int: integer to pass through
+ * @i: integer to pass through
  *
  * Return: 0
  */
