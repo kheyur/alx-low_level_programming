@@ -14,6 +14,6 @@ int print_last_digit(int i)
 	{
 		c = c/10;
 	}
-	_putchar(c);
+	printf(c);
 	return (c);
 }
