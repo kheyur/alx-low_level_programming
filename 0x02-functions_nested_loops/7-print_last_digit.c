@@ -14,9 +14,6 @@ int print_last_digit(int i)
 	{
 		c = c/10;
 	}
-	for( b = 0; b < 2; b++)
-	{
-		_putchar(c);
-	}
+	_putchar(c);
 	return (c);
 }
