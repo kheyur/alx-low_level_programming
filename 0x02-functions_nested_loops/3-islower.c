@@ -6,7 +6,7 @@
  *
  * Return: 1(true)/0(false)
  */
-int islower(int c)
+int _islower(int c)
 {
 	if (c >= 97 || c <= 122)
 	{
