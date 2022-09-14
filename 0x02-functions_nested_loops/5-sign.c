@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print-sign - print if number is + or -
+ * print_sign - print if number is + or -
  * @n: pass through the number
  *
  * Return: 1 if > 0, 0 if = 0, -1 if < 0
