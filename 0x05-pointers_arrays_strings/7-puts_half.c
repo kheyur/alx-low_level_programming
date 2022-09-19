@@ -5,12 +5,12 @@
  */
 void puts_half(char *str)
 {
-	int count;
+	int count, i;
 
 	count = 0;
-	while (count >= o)
+	while (count >= 0)
 	{
-		if (str[cout] == '\0')
+		if (str[count] == '\0')
 		{
 			break;
 		}
