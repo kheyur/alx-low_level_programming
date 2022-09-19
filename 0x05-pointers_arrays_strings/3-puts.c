@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * _puts - prints string followed by a new line
  * @str: string passed to method
@@ -13,10 +11,10 @@ void _puts(char *str)
 	{
 		if (str[count] == '\0')
 		{
-			putchar('\n');
+			_putchar('\n');
 			break;
 		}
-		putchar(str[count]);
+		_putchar(str[count]);
 		count++;
 	}
 }
