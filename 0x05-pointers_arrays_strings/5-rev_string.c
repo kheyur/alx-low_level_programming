@@ -14,17 +14,17 @@ void rev_string(char *s)
 		{
 			break;
 		}
-		count;;
+		count++;
 	}
-	str = s;
+	tempstr1 = s;
 
 	for (i = 0; i < (count - 1); i++)
 	{
 		for (j = i + 1; j > 0; j--)
 		{
-			temp = *(str + j);
-			*(str + j) = *(str + (j - 1));
-			*(str + (j - 1)) = temp;
+			tempStr2 = *(tempStr1 + j);
+			*(tempStr1 + j) = *(tempStr1 + (j - 1));
+			*(tempStr1 + (j - 1)) = tempStr2;
 		}
 	}
 }
