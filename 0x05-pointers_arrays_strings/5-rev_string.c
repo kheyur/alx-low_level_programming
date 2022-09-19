@@ -8,6 +8,7 @@ void rev_string(char *s)
 	int count, i, j;
 	char *tempStr1, tempStr2;
 
+	count = 0;
 	while (count >= 0)
 	{
 		if (s[count] == '\0')
