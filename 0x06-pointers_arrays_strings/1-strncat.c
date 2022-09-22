@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strncat - concatenate 2 strings with n bytes and no null value
+ *_strncat - concatenate 2 strings with n bytes and no null value
  * @dest: string to be added to
  * @src: string to add to dest
  * @n: number of bytes to use from src
