@@ -20,6 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
+	}
 		if (k == 1)
 		{
 			break;
