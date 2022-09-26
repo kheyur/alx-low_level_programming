@@ -19,7 +19,7 @@ char *_strstr(char *haystack, char *needle)
 			haystack++;
 			j++;
 		}
-		if(!*j)
+		if (!*j)
 		{
 			return (i);
 		}
