@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
 	{
 		return (1);
 	}
-	return (_sqrt(n, 2));	
+	return (_sqrt(n, 2));
 }
 /**
  * _sqrt - return the natural square root of a number
