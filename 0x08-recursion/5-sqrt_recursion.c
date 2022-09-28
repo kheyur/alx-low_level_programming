@@ -28,13 +28,16 @@ int _sqrt_recursion(int n)
  */
 int _sqrt(int i, int j)
 {
-	int j % (i / j) == i
+	if (j % (i / j) == 0)
 	{
-		return (j);
-	}
-	else
-	{
-		return (-1);
+		if (j * (i / j) == i)
+		{
+			return (j);
+		}
+		else
+		{
+			return (-1);
+		}
 	}
 	return (0 + _sqrt(i, j + 1));
 }
