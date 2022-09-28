@@ -10,5 +10,8 @@ int factorial(int n)
 	{
 		return (1);
 	}
-	return i * factorial(i - 1);
+	else
+	{
+		return (i * factorial(i - 1));
+	}
 }
