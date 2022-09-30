@@ -5,18 +5,18 @@
  * @c: character to look for
  * Return: pointer to first occurence of c or NULL if none
  */
-char *_strchr(char *s, char c)
+char *_strchr(char *s, char *accept)
 {
 	unsigned int i = 0;
 
 	for (; *(s + i) != '\0'; i++)
 	{
-		if (*(s + i) == c)
+		if (*(s + i) == accept)
 		{
 			return (s + i);
 		}
 	}
-	if (*(s + i) == c)
+	if (*(s + i) == accept)
 	{
 		return (s + i);
 	}
