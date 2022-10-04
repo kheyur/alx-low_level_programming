@@ -10,11 +10,12 @@
 char *create_array(unsigned int size, char c)
 {
 	char *pt = &c;
+	int i = (sizeof(unsigned int) * size);
 
-	pt = malloc(sizeof(unsigned int) * size);
+	pt = malloc(i);
 	if (pt == NULL)
 	{
-		printf("Failed to allocate $d bytes\n", (sizeof(unsigned int) * size));
+		printf("Failed to allocate $d bytes\n", i);
 		return (NULL);
 	}
 	else
