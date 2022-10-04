@@ -9,12 +9,12 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *pt = c;
+	char *pt = &c;
 
 	pt = malloc(sizeof(unsigned int) * size);
 	if (pt == NULL)
 	{
-		printf("Failed to allocate $d bytes\n", sizeof(unsigned int) * size);
+		printf("Failed to allocate $d bytes\n", (sizeof(unsigned int) * size));
 		return (NULL);
 	}
 	else
