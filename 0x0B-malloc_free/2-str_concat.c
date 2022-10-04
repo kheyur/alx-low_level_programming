@@ -26,12 +26,12 @@ char *str_concat(char *s1, char *s2)
 		;
 	}
 
-	for (int j = 0; s2[j] != '\0'; j++)
+	for (j = 0; s2[j] != '\0'; j++)
 	{
 		;
 	}
 
-	ptr = mallow(sizeof(char) * (i + j + 1));
+	ptr = malloc(sizeof(char) * (i + j + 1));
 
 	if (ptr == NULL)
 	{
