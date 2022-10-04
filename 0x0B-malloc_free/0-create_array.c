@@ -15,7 +15,6 @@ char *create_array(unsigned int size, char c)
 	pt = malloc(i);
 	if (pt == NULL)
 	{
-		printf("Failed to allocate $d bytes\n", i);
 		return (NULL);
 	}
 	else
