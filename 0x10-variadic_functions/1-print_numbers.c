@@ -1,4 +1,4 @@
-#include "variadiac_functions.h"
+#include "variadic_functions.h"
 /**
  * print_numbers - prints out numbers followed by newline
  * @seprator: string to space numbers
