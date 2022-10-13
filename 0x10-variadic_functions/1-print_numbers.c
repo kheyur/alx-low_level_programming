@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
  * print_numbers - prints out numbers followed by newline
- * @seprator: string to space numbers
+ * @separator: string to space numbers
  * @n: number of integers passed
  * Return: none
  */
