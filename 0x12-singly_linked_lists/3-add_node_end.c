@@ -28,10 +28,9 @@ list_t *add_node_end(list_t **head, const char *str)
 		{
 			h->next = new;
 			new->next = NULL;
-			i = 0;
+			i = 1;
 		}
 		h = h->next;
 	}
 	return (new);
 }
-
