@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * get-nodeint_at_index - returns node at nth position in list
+ * get_nodeint_at_index - returns node at nth position in list
  * @head: beginning of linked list
  * @index: index of node
  * Return: nth node, null if node does not exist
