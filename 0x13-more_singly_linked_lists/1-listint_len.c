@@ -6,7 +6,7 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	site_t n;
+	size_t n;
 
 	n = 0;
 	while (h != NULL)
