@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * dlist_len - returns the number of elements in a double
+ * dlistint_len - returns the number of elements in a double
  * linked list
  *
  * @h: head of the list
